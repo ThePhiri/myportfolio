@@ -105,6 +105,7 @@ to{border-right-color: transparent;}
 
 footer {
     clear: both;
+    text-align: center;
 }
 
 .coding-icon{
@@ -164,7 +165,17 @@ ul{
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .ani-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.ani-link:hover {
     display: inline-block;
     color: #000;
     text-decoration: none;
@@ -181,5 +192,5 @@ ul{
 
 .ani-link:hover::after {
     width: 100%;
-    //transition: width .3s;
+    transition: width .3s;
 }
