@@ -14,7 +14,9 @@ i {
     width: 100%
 }
 
-
+.logo {
+    height: 80px;
+}
 
 /*font styling*/
 h1 {
