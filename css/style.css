@@ -1,36 +1,35 @@
 /* Main elements styles*/
 body{
     color: #000;
-    /*background: #000000; /* fallback for old browsers */
-    background: linear-gradient(to right, rgba(255,255,255,1) 0%,
-     rgba(246,246,246,1) 47%,
-      rgba(237,237,237,1) 100%);*/
-	-webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(270deg, #007006, #d43131, #70016b, #1e63ff);
+    background-size: 800% 800%;
     
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
 }
+    @-webkit-keyframes AnimationName {
+        0%{background-position:2% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:2% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:2% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:2% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:2% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:2% 0%}
+    }
+    
+
 
 
 i {
-    width: 100%;
+    width: 100%
 }
 
 .logo {
