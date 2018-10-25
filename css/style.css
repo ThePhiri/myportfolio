@@ -2,57 +2,39 @@
 body{
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(270deg, #007006, #d43131, #70016b, #1e63ff);
-    background-size: 800% 800%;
-    
-    -webkit-animation: AnimationName 25s ease infinite;
-    -moz-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
+    background-image: linear-gradient(to right top, #c1c1c1, #d0d0d0, #e0e0e0, #efefef, #ffffff); 
 }
-    @-webkit-keyframes AnimationName {
-        0%{background-position:2% 0%}
-        50%{background-position:99% 100%}
-        100%{background-position:2% 0%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:2% 0%}
-        50%{background-position:99% 100%}
-        100%{background-position:2% 0%}
-    }
-    @keyframes AnimationName {
-        0%{background-position:2% 0%}
-        50%{background-position:99% 100%}
-        100%{background-position:2% 0%}
-    }
-    
+
 
 
 
 i {
-    width: 100%
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
-    height: 85px;
+    height: 150px;
+   margin-bottom: 15px;
 }
 
 /*font styling*/
 h1 {
-    color: rgba(190, 184, 184, 0.63);
+    color: #ff5a00;
     font-weight: 500;
 }
 
 h3 {
-    color: rgba(190, 184, 184, 0.63);
+    color: #ff5a00;
     font-weight: 500;
 }
 
 h2{
-    color: rgba(190, 184, 184, 0.63);
+    color: #ff5a00;
     font-weight: 500;
 }
 h4{
-    color: rgba(190, 184, 184, 0.63);
+    color: rgb(0, 77, 128);
     font-weight: 500;
 }
 
@@ -62,11 +44,11 @@ h4{
    /* Background: url('../images/main.jpg');*/
   
   
-	height: 90vh;
+	height: 20%;
     }
 /*header styling*/
 #name{
-    margin: 30% 0 0 0;
+    margin: 10% 0 0 0;
     
     height: 300px;
    
@@ -153,31 +135,20 @@ footer {
     font-family: 'Righteous', cursive;
 }
 
-#red-title {
-    background-color: red;
+
+
+#orange-title {
+    background-color: #ff5a00;
    text-align: center;
   
-   height: 80vh;
-   margin: auto;
-}
-
-#red-title h1{
-    color: #fff;
-    line-height: 80vh;
-}
-
-#blue-title {
-    background-color: rgb(0, 110, 255);
-   text-align: center;
-  
-   height: 80vh;
+   height: 30vh;
    margin: auto;
   
 }
 
-#blue-title h1{
+#orange-title h1{
     color: #fff;
-    line-height: 80vh;
+    line-height: 30vh;
 }
 
 ul{
