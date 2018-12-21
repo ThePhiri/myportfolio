@@ -1,10 +1,13 @@
 /* Main elements styles*/
 body{
-    color: #000;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to right top, #c1c1c1, #d0d0d0, #e0e0e0, #efefef, #ffffff); 
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
 }
-
 
 
 
@@ -41,16 +44,18 @@ h4{
 
 /* Header styling*/
 #header {
-   /* Background: url('../images/main.jpg');*/
-  
-  
-	height: 20%;
+  Background: url('../images/main.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
     }
 /*header styling*/
 #name{
     margin: 10% 0 0 0;
     
-    height: 300px;
+    
    
 }
 
@@ -86,24 +91,7 @@ overflow: hidden;
 transform: translateY(-50%);    
 }
 
-/* Animation */
-.anim-typewriter{
-animation: typewriter 4s steps(44) 1s 1 normal both,
-         blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-from{width: 0;}
-to{width: 9em;}
-}
-@keyframes blinkTextCursor{
-from{border-right-color: rgba(74, 128, 3, 0.75);}
-to{border-right-color: transparent;}
-}
 
-.progress{
-    margin: 20px;
-    background-color: #2767fb;
-}
 
 footer {
     clear: both;
@@ -114,42 +102,7 @@ footer {
     background-color: #000;
 }
 
-#projects {
-   
-    height: 400px;
-    text-align: center;
 
-    background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    ),
-    /* bottom, image */
-    url("../images/web.gif");
-    
-}
-
-#projects h1 {
-    font-size: 150px;
-    font-family: 'Righteous', cursive;
-}
-
-
-
-#orange-title {
-    background-color: #ff5a00;
-   text-align: center;
-  
-   height: 30vh;
-   margin: auto;
-  
-}
-
-#orange-title h1{
-    color: #fff;
-    line-height: 30vh;
-}
 
 ul{
     list-style-type: none;
@@ -158,30 +111,4 @@ ul{
 
 a {
     text-decoration: none;
-}
-
-.ani-link {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-}
-
-.ani-link:hover {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-}
-
-.ani-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width .3s;
-}
-
-.ani-link:hover::after {
-    width: 100%;
-    transition: width .3s;
 }
