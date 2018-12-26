@@ -7,102 +7,15 @@ body{
     height: 100%;
     background-repeat: no-repeat;
     background-color: #000;
+    padding-top: 2%;
 }
 
 
 
-i {
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
+
+#logo {
+    height: 15em;
 }
-
-.logo {
-    height: 150px;
-   margin-bottom: 15px;
-}
-
-/*font styling*/
-h1 {
-    color: #ff5a00;
-    font-weight: 500;
-}
-
-h3 {
-    color: #ff5a00;
-    font-weight: 500;
-}
-
-h2{
-    color: #ff5a00;
-    font-weight: 500;
-}
-h4{
-    color: rgb(0, 77, 128);
-    font-weight: 500;
-}
-
-
-/* Header styling*/
-#header {
-  Background: url('../images/main.jpg');
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    
-    }
-/*header styling*/
-#name{
-    margin: 10% 0 0 0;
-    
-    
-   
-}
-
-#name h1 {
-    font-size: 1.5em;
-    
-    color: #000;
-    
-    width: 90%;
-}
-
-#name h3{
-    color: #7C3D32;
-}
-
-.container {
-    padding: 15px;
-}
-
-
-
-/*animated text*/
-.line-1{
-position: relative;
-top: 10%;  
-width: 24em;
-margin: 0 auto;
-border-right: 2px solid rgba(255,255,255,.75);
-font-size: 180%;
-text-align: center;
-white-space: nowrap;
-overflow: hidden;
-transform: translateY(-50%);    
-}
-
-
-
-footer {
-    clear: both;
-    text-align: center;
-}
-
-.coding-icon{
-    background-color: #000;
-}
-
-
 
 ul{
     list-style-type: none;
@@ -111,4 +24,14 @@ ul{
 
 a {
     text-decoration: none;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
 }
