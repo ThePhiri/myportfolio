@@ -35,3 +35,34 @@ a {
     /* symbol for "collapsed" panels */
     content: "\f067"; 
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(0, 174, 255);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+
+.fa-linkedin-in {
+    background: transparent;
+    color: #007bb5;
+  
+  }
+
+  .fa-github {
+    background: transparent;
+    color: #fff;
+ 
+  }
