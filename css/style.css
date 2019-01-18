@@ -39,7 +39,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 5px solid rgb(0, 174, 255);
+    border-top: 1px solid rgb(0, 174, 255);
     margin: 1em 0;
     padding: 0; 
 }
@@ -52,6 +52,7 @@ hr {
     text-decoration: none;
     margin: 5px 2px;
   }
+
 
 
 .fa-linkedin-in {
