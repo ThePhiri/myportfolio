@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-color: #000;
     padding-top: 2%;
+    background-attachment: fixed;
 }
 
 
@@ -66,3 +67,17 @@ hr {
     color: #fff;
  
   }
+
+  #contact {
+      height: 60%;
+  }
+
+  .card-body {
+      color: #000;
+  }
+
+  .card-img-top {
+      height: 250px;
+     
+  }
+
