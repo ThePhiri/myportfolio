@@ -11,6 +11,10 @@ body{
     background-attachment: fixed;
 }
 
+.container {
+
+    margin-bottom: 20%;
+}
 
 #logo {
     height: 15em;
@@ -80,3 +84,7 @@ hr {
      
   }
 
+  .bg-custom {
+      background-image: url('../images/nav.jpg');
+      background-color: #000;
+  }
