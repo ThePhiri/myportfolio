@@ -43,7 +43,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid rgb(0, 174, 255);
+    border-top: 1px solid rgb(109, 218, 211);
     margin: 1em 0;
     padding: 0; 
 }
@@ -212,4 +212,15 @@ hr {
 .social-linkedin:hover {
   background-color: #466b99;
   border-color: #3b5a7c;
+}
+
+#about {
+  background-color: rgba(8, 8, 8, 0.4);
+  padding: 2%;
+  font-size: 1.1em;
+}
+
+.btn-primary{
+  background-color: #6ddad3;
+  color: #000;
 }
