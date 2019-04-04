@@ -172,6 +172,8 @@ hr {
   width: 20%;
   font-size: 250%;
   padding: 0;
+  text-align: center;
+  left: 5px;
 }
 
 .social-login-more {
@@ -214,7 +216,13 @@ hr {
   border-color: #3b5a7c;
 }
 
-#about {
+#abut {
+  background-color: rgba(8, 8, 8, 0.4);
+  padding: 2%;
+  font-size: 1.1em;
+}
+
+.container {
   background-color: rgba(8, 8, 8, 0.4);
   padding: 2%;
   font-size: 1.1em;
